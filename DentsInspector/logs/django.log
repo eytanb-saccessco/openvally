@@ -1,0 +1,963 @@
+ERROR 2025-08-05 13:23:14,889 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:125 __init__ Error communicating with Gemini: module 'google.genai' has no attribute 'upload_file'
+ERROR 2025-08-05 13:24:30,101 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:125 __init__ Error communicating with Gemini: module 'google.genai' has no attribute 'GenerativeModel'
+ERROR 2025-08-05 13:43:33,302 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:122 __init__ Error communicating with Gemini: name 'genai' is not defined
+INFO 2025-08-05 13:48:44,187 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:117 __init__ AI Response: ```json
+[
+  {
+    "photo": "1.jpeg",
+    "position": {
+      "topY": 310,
+      "bottomY": 640,
+      "leftX": 680,
+      "rightX": 830
+    },
+    "plds": "16->5->6->4"
+  },
+  {
+    "photo": "1.jpeg",
+    "position": {
+      "topY": 670,
+      "bottomY": 790,
+      "leftX": 540,
+      "rightX": 690
+    },
+    "plds": "2->5->13->2"
+  },
+  {
+    "photo": "1.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 570,
+      "leftX": 500,
+      "rightX": 600
+    },
+    "plds": "6->5->6->3"
+  },
+  {
+    "photo": "2.jpeg",
+    "position": {
+      "topY": 650,
+      "bottomY": 790,
+      "leftX": 320,
+      "rightX": 700
+    },
+    "plds": "2->2->13->2"
+  },
+  {
+    "photo": "2.jpeg",
+    "position": {
+      "topY": 490,
+      "bottomY": 650,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "23->2->12->1"
+  },
+  {
+    "photo": "3.jpeg",
+    "position": {
+      "topY": 260,
+      "bottomY": 560,
+      "leftX": 310,
+      "rightX": 700
+    },
+    "plds": "15->1->2->4"
+  },
+  {
+    "photo": "3.jpeg",
+    "position": {
+      "topY": 590,
+      "bottomY": 770,
+      "leftX": 300,
+      "rightX": 850
+    },
+    "plds": "2->1->4->4"
+  },
+  {
+    "photo": "3.jpeg",
+    "position": {
+      "topY": 480,
+      "bottomY": 640,
+      "leftX": 240,
+      "rightX": 410
+    },
+    "plds": "5->4->6->4"
+  },
+  {
+    "photo": "3.jpeg",
+    "position": {
+      "topY": 380,
+      "bottomY": 550,
+      "leftX": 160,
+      "rightX": 280
+    },
+    "plds": "22->4->2->3"
+  },
+  {
+    "photo": "4.jpeg",
+    "position": {
+      "topY": 280,
+      "bottomY": 570,
+      "leftX": 350,
+      "rightX": 780
+    },
+    "plds": "15->1->2->4"
+  },
+  {
+    "photo": "4.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 780,
+      "leftX": 350,
+      "rightX": 900
+    },
+    "plds": "2->1->4->4"
+  },
+  {
+    "photo": "4.jpeg",
+    "position": {
+      "topY": 480,
+      "bottomY": 640,
+      "leftX": 700,
+      "rightX": 860
+    },
+    "plds": "5->6->6->3"
+  },
+  {
+    "photo": "4.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 550,
+      "leftX": 880,
+      "rightX": 950
+    },
+    "plds": "22->6->2->3"
+  },
+  {
+    "photo": "5.jpeg",
+    "position": {
+      "topY": 310,
+      "bottomY": 580,
+      "leftX": 250,
+      "rightX": 600
+    },
+    "plds": "15->1->2->4"
+  },
+  {
+    "photo": "6.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 780,
+      "leftX": 350,
+      "rightX": 900
+    },
+    "plds": "9->1->4->4"
+  },
+  {
+    "photo": "7.jpeg",
+    "position": {
+      "topY": 590,
+      "bottomY": 770,
+      "leftX": 300,
+      "rightX": 850
+    },
+    "plds": "202->1->6->4"
+  },
+  {
+    "photo": "8.jpeg",
+    "position": {
+      "topY": 260,
+      "bottomY": 770,
+      "leftX": 150,
+      "rightX": 880
+    },
+    "plds": "239->37->22->4"
+  }
+]
+```
+INFO 2025-08-05 13:57:07,691 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:115 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 600,
+      "leftX": 300,
+      "rightX": 400
+    },
+    "plds": "2->1->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 250,
+      "rightX": 350
+    },
+    "plds": "16->3->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 400,
+      "leftX": 600,
+      "rightX": 700
+    },
+    "plds": "6->5->6->4"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 700,
+      "bottomY": 800,
+      "leftX": 100,
+      "rightX": 200
+    },
+    "plds": "1->4->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 350,
+      "bottomY": 450,
+      "leftX": 500,
+      "rightX": 600
+    },
+    "plds": "52->29->40->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 100,
+      "bottomY": 250,
+      "leftX": 400,
+      "rightX": 550
+    },
+    "plds": "10->0->3->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 200,
+      "bottomY": 300,
+      "leftX": 450,
+      "rightX": 550
+    },
+    "plds": "15->29->2->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 400,
+      "leftX": 800,
+      "rightX": 900
+    },
+    "plds": "3->8->6->4"
+  }
+]
+```
+INFO 2025-08-05 14:54:30,941 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:115 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 550,
+      "leftX": 400,
+      "rightX": 450
+    },
+    "plds": "2->1->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 350,
+      "leftX": 200,
+      "rightX": 250
+    },
+    "plds": "16->4->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 680,
+      "leftX": 500,
+      "rightX": 580
+    },
+    "plds": "6->2->6->4"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 150,
+      "bottomY": 250,
+      "leftX": 300,
+      "rightX": 400
+    },
+    "plds": "10->29->3->3"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 700,
+      "bottomY": 900,
+      "leftX": 100,
+      "rightX": 300
+    },
+    "plds": "130->4->53->4"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 600,
+      "leftX": 350,
+      "rightX": 500
+    },
+    "plds": "52->4->40->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 200,
+      "bottomY": 250,
+      "leftX": 450,
+      "rightX": 500
+    },
+    "plds": "62->32->28->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 100,
+      "bottomY": 300,
+      "leftX": 100,
+      "rightX": 600
+    },
+    "plds": "15->0->12->3"
+  }
+]
+```
+INFO 2025-08-05 15:00:06,182 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:115 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 550,
+      "bottomY": 700,
+      "leftX": 100,
+      "rightX": 300
+    },
+    "plds": "2->4->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 500,
+      "leftX": 700,
+      "rightX": 900
+    },
+    "plds": "22->6->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 580,
+      "bottomY": 720,
+      "leftX": 150,
+      "rightX": 350
+    },
+    "plds": "2->5->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 600,
+      "leftX": 250,
+      "rightX": 450
+    },
+    "plds": "16->3->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 350,
+      "bottomY": 550,
+      "leftX": 300,
+      "rightX": 500
+    },
+    "plds": "16->3->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 650,
+      "leftX": 600,
+      "rightX": 800
+    },
+    "plds": "125->7->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 600,
+      "leftX": 650,
+      "rightX": 850
+    },
+    "plds": "16->8->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 580,
+      "bottomY": 720,
+      "leftX": 700,
+      "rightX": 900
+    },
+    "plds": "2->7->2->2"
+  }
+]
+```
+INFO 2025-08-05 15:01:58,917 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:116 __init__ AI Response: As a car inspection assistant, I am designed to process visual input (photos) to detect damages. However, I cannot directly access or "see" the image files you listed (`eventid_5705_imageNumber_352105.jpeg`, `eventid_5705_imageNumber_352108.jpeg`, etc.) as they are file names and not actual image data I can analyze.
+
+Therefore, I cannot produce a real damage report for the given images.
+
+Below is an **example of what my output would look like** if I were able to process the images and detect damages, based on the format you provided. I've simulated common damages for illustrative purposes:
+
+```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 550,
+      "bottomY": 650,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "2->1->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 250,
+      "bottomY": 300,
+      "leftX": 700,
+      "rightX": 750
+    },
+    "plds": "5->6->3->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 580,
+      "leftX": 200,
+      "rightX": 350
+    },
+    "plds": "16->4->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 600,
+      "leftX": 500,
+      "rightX": 700
+    },
+    "plds": "23->2->13->2"
+  }
+]
+```
+INFO 2025-08-05 15:03:53,094 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:116 __init__ AI Response: As a car inspection assistant, I am designed to inspect photos of vehicles to detect damages and produce a report in a specific JSON format.
+
+However, as a text-based AI, I am unable to directly process or "see" the visual content of the image files you've provided (e.g., `eventid_5705_imageNumber_352105.jpeg`, `eventid_5705_imageNumber_352108.jpeg`, etc.). My capabilities are limited to processing text and structured data.
+
+Therefore, I cannot perform the visual inspection required to identify damages in these photos.
+
+Since I cannot detect any damages from the provided input, the report is empty.
+
+```json
+[]
+```
+INFO 2025-08-05 15:05:27,921 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:116 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 700,
+      "bottomY": 800,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "2->1->1->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 350,
+      "bottomY": 450,
+      "leftX": 200,
+      "rightX": 300
+    },
+    "plds": "16->3->2->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 500,
+      "leftX": 700,
+      "rightX": 900
+    },
+    "plds": "6->7->6->4"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 900,
+      "leftX": 100,
+      "rightX": 500
+    },
+    "plds": "130->6->53->3"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 100,
+      "bottomY": 200,
+      "leftX": 450,
+      "rightX": 550
+    },
+    "plds": "10->29->3->2"
+  }
+]
+```
+INFO 2025-08-05 15:09:18,831 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:116 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 450,
+      "leftX": 150,
+      "rightX": 300
+    },
+    "plds": "2->4->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 200,
+      "bottomY": 280,
+      "leftX": 500,
+      "rightX": 600
+    },
+    "plds": "5->6->6->4"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 550,
+      "leftX": 200,
+      "rightX": 350
+    },
+    "plds": "16->3->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 150,
+      "bottomY": 250,
+      "leftX": 700,
+      "rightX": 800
+    },
+    "plds": "3->8->97->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 350,
+      "bottomY": 500,
+      "leftX": 400,
+      "rightX": 550
+    },
+    "plds": "23->2->1->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 250,
+      "bottomY": 320,
+      "leftX": 100,
+      "rightX": 200
+    },
+    "plds": "6->5->6->3"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 50,
+      "bottomY": 150,
+      "leftX": 300,
+      "rightX": 400
+    },
+    "plds": "62->29->41->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 750,
+      "leftX": 450,
+      "rightX": 600
+    },
+    "plds": "52->29->40->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 300,
+      "rightX": 400
+    },
+    "plds": "114->37->66->3"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 200,
+      "bottomY": 300,
+      "leftX": 500,
+      "rightX": 650
+    },
+    "plds": "191->37->191->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 400,
+      "leftX": 600,
+      "rightX": 700
+    },
+    "plds": "17->7->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 100,
+      "bottomY": 250,
+      "leftX": 100,
+      "rightX": 200
+    },
+    "plds": "27->0->57->3"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 650,
+      "leftX": 300,
+      "rightX": 450
+    },
+    "plds": "130->4->41->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 500,
+      "rightX": 600
+    },
+    "plds": "1->4->17->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 250,
+      "bottomY": 350,
+      "leftX": 250,
+      "rightX": 350
+    },
+    "plds": "10->29->3->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 700,
+      "leftX": 700,
+      "rightX": 800
+    },
+    "plds": "16->8->12->1"
+  }
+]
+```
+INFO 2025-08-05 15:25:47,820 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:118 __init__ AI Response: []
+INFO 2025-08-05 15:34:34,394 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:118 __init__ AI Response: [
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 650,
+      "leftX": 500,
+      "rightX": 600
+    },
+    "plds": "2->1->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 300,
+      "rightX": 500
+    },
+    "plds": "16->8->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 700,
+      "bottomY": 800,
+      "leftX": 550,
+      "rightX": 750
+    },
+    "plds": "2->2->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 350,
+      "bottomY": 450,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "68->29->41->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 300,
+      "rightX": 700
+    },
+    "plds": "72->0->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 600,
+      "leftX": 450,
+      "rightX": 550
+    },
+    "plds": "130->7->36->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 500,
+      "rightX": 700
+    },
+    "plds": "16->5->2->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 300,
+      "bottomY": 400,
+      "leftX": 700,
+      "rightX": 800
+    },
+    "plds": "22->4->1->1"
+  }
+]
+ERROR 2025-08-05 20:47:17,528 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:123 __init__ Error communicating with Gemini: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+INFO 2025-08-06 04:13:47,123 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/__init__.py:118 __init__ AI Response: ```json
+[
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 550,
+      "bottomY": 650,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "2->1->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352105.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 700,
+      "rightX": 850
+    },
+    "plds": "5->0->3->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 650,
+      "bottomY": 750,
+      "leftX": 700,
+      "rightX": 800
+    },
+    "plds": "1->6->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352108.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 150,
+      "rightX": 250
+    },
+    "plds": "3->8->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 700,
+      "leftX": 200,
+      "rightX": 300
+    },
+    "plds": "2->2->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352123.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 800,
+      "rightX": 900
+    },
+    "plds": "16->7->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 620,
+      "bottomY": 720,
+      "leftX": 750,
+      "rightX": 850
+    },
+    "plds": "2->2->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352138.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 100,
+      "rightX": 200
+    },
+    "plds": "16->5->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 600,
+      "bottomY": 700,
+      "leftX": 300,
+      "rightX": 400
+    },
+    "plds": "17->3->13->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352136.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 50,
+      "rightX": 150
+    },
+    "plds": "3->3->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 650,
+      "bottomY": 750,
+      "leftX": 200,
+      "rightX": 300
+    },
+    "plds": "1->4->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352129.jpeg",
+    "position": {
+      "topY": 450,
+      "bottomY": 550,
+      "leftX": 800,
+      "rightX": 900
+    },
+    "plds": "16->3->2->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352126.jpeg",
+    "position": {
+      "topY": 500,
+      "bottomY": 700,
+      "leftX": 400,
+      "rightX": 600
+    },
+    "plds": "130->4->49->2"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 550,
+      "bottomY": 650,
+      "leftX": 450,
+      "rightX": 550
+    },
+    "plds": "23->2->1->1"
+  },
+  {
+    "photo": "eventid_5705_imageNumber_352120.jpeg",
+    "position": {
+      "topY": 400,
+      "bottomY": 500,
+      "leftX": 200,
+      "rightX": 300
+    },
+    "plds": "6->5->6->3"
+  }
+]
+```
+ERROR 2025-08-06 11:39:32,314 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/chatgpt.py:121 chatgpt Error using OpenAI API: [Errno 2] No such file or directory: '/tmp/tmp6ue6lq9t/event_5705/eventid_5705_imageNumber_352105.jpeg'
+ERROR 2025-08-06 11:42:20,464 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/chatgpt.py:121 chatgpt Error using OpenAI API: [Errno 2] No such file or directory: '/tmp/tmp_rj97i1b/event_5705/eventid_5705_imageNumber_352105.jpeg'
+ERROR 2025-08-06 11:43:06,487 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/chatgpt.py:121 chatgpt Error using OpenAI API: [Errno 2] No such file or directory: '/tmp/tmpkvn4vxzt/event_5705/eventid_5705_imageNumber_352105.jpeg'
+ERROR 2025-08-06 11:49:51,887 /home/eytan/PycharmProjects/OpenVally/DentsInspector/DentsInspector/ai/chatgpt.py:118 chatgpt Error using OpenAI API: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
